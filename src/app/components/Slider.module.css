@@ -1,0 +1,22 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .scroll {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 300%; /* Ensures content is wide enough for scrolling */
+    animation: scroll 40s linear infinite; /* Adjust duration for scrolling speed */
+  }
+  
+  @media (max-width: 768px) {
+    .scroll {
+      animation-duration: 60s; /* Slower on mobile for a smoother effect */
+    }
+  }
+  
