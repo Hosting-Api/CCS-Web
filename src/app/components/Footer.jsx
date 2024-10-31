@@ -7,6 +7,10 @@ import {
   FaLocationArrow,
   FaMapMarked,
   FaMapPin,
+  FaPhone,
+  FaPhoneSlash,
+  FaPhoneSquare,
+  FaPhoneVolume,
   FaSearchLocation,
 } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
@@ -65,7 +69,7 @@ function Footer() {
             </p>
            
             <li className="text-gray-700 text-lg text-md pb-2 font-semibold  cursor-pointer">
-            <a href="/#services" className="text-xl font-semibold relative after:bg-orange-300 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
+            <a href="/#work" className="text-xl font-semibold relative after:bg-orange-300 after:absolute after:h-1 after:w-0 after:bottom-0 after:left-0 hover:after:w-full after:transition-all after:duration-300 cursor-pointer">
             Our Work
           </a>             
             </li>
@@ -93,22 +97,24 @@ function Footer() {
 						</li> */}
             <li className="text-gray-700 text-md pb-2 font-semibold ">
               <label>
-                <FaMapPin className="text-lg cursor-pointer " />
+                <FaMapPin className="text-lg" />
               </label>
               <span>Surat | Ahmedabad | Navsari  </span>
             </li>
-            {/* <li className="text-gray-700 text-md pb-2 font-semibold hover:text-orange-300 cursor-pointer">
-							<label><FaPhoneAlt className="text-lg cursor-pointer hover:text-yellow-600" /></label>
-                <span>02612998358</span>
-						</li> */}
+            <li className="text-gray-700 text-md pb-2 font-semibold ">
+							<label>
+                <FaPhoneAlt className="text-lg" />
+              </label>
+                <span>+91 7984175557</span>
+						</li>
            
             <li className="text-gray-700 text-md pb-2 font-semibold  ">
               <label>
-                <FaBuilding className="text-lg cursor-pointer " />
+                <FaBuilding className="text-lg " />
               </label>
               <span>
                 Shop no :- 120,Canal Walk Shoppers,Palanpur
-                <br /> Surat-395009, Gujarat
+                <br /> Surat-395009, Gujarat
               </span>
             </li>
           </ul>
