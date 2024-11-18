@@ -64,9 +64,9 @@ const Contact = () => {
                         Our Address
                       </h3>
                       <p className="text-gray-700">
-                        Shop no: 120, Canal Walk Shoppers,
+                       Shop no: 369, The Galleria Building,
                         <br />
-                        Palanpur, Surat, Gujarat-395009
+                       Pal RTO, Surat
                       </p>
                     </div>
                   </li>
