@@ -113,8 +113,8 @@ function Footer() {
                 <FaBuilding className="text-lg " />
               </label>
               <span>
-                Shop no :- 120,Canal Walk Shoppers,Palanpur
-                <br /> Surat-395009, Gujarat
+               Shop no: 369, The Galleria Building,
+                <br /> Pal RTO, Surat
               </span>
             </li>
           </ul>
