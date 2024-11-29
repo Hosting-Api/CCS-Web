@@ -2,20 +2,20 @@ import Image from 'next/image';
 import styles from './Slider.module.css';
 
 const clients = [
-  { name: 'Client 1', logo: '/LOGOS/1.png' },
-  { name: 'Client 2', logo: '/LOGOS/2.png' },
-  { name: 'Client 3', logo: '/LOGOS/3.png' },
-  { name: 'Client 4', logo: '/LOGOS/4.png' },
-  { name: 'Client 5', logo: '/LOGOS/5.png' },
-  { name: 'Client 6', logo: '/LOGOS/6.png' },
-  { name: 'Client 7', logo: '/LOGOS/7.png' },
-  { name: 'Client 8', logo: '/LOGOS/8.png' },
-  { name: 'Client 9', logo: '/LOGOS/9.png' },
-  { name: 'Client 10', logo: '/LOGOS/10.png' },
-  { name: 'Client 11', logo: '/LOGOS/11.png' },
-  { name: 'Client 12', logo: '/LOGOS/12.png' },
-  { name: 'Client 13', logo: '/LOGOS/13.png' },
-  { name: 'Client 14', logo: '/LOGOS/14.png' },
+  { name: 'Client 1', logo: '/LOGOS1/1.png' },
+  { name: 'Client 2', logo: '/LOGOS1/2.png' },
+  { name: 'Client 3', logo: '/LOGOS1/3.png' },
+  { name: 'Client 4', logo: '/LOGOS1/4.png' },
+  // { name: 'Client 5', logo: '/LOGOS/5.png' },
+  { name: 'Client 6', logo: '/LOGOS1/6.png' },
+  // { name: 'Client 7', logo: '/LOGOS/7.png' },
+  { name: 'Client 8', logo: '/LOGOS1/8.png' },
+  { name: 'Client 9', logo: '/LOGOS1/9.png' },
+  { name: 'Client 10', logo: '/LOGOS1/10.png' },
+  { name: 'Client 11', logo: '/LOGOS1/11.png' },
+  { name: 'Client 12', logo: '/LOGOS1/12.png' },
+  { name: 'Client 13', logo: '/LOGOS1/13.png' },
+  // { name: 'Client 14', logo: '/LOGOS/14.png' },
 ];
 
 export default function Slider() {
